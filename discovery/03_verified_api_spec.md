@@ -1,4 +1,4 @@
-# Verified on LinkedIn – Overview
+﻿# Verified on LinkedIn – Overview
 
 The Verified on LinkedIn API allows you to access trusted verification signals from LinkedIn members, enabling you to display verified identity and workplace information directly within your platform.
 
@@ -34,7 +34,7 @@ The API is designed for **trust enhancement**, not **regulatory compliance** or 
 | **Housing eligibility** | Cannot be used for rental or housing determinations. |
 | **Fintech or banking KYC** | Not a regulated KYC/AML service. |
 | **Government or regulated identity checks** | Not a substitute for official ID verification systems. |
-| **Platform safety or risk scoring** | Should complement — not replace your platform's trust and risk systems. |
+| **Platform safety or risk scoring** | Should complement - not replace your platform's trust and risk systems. |
 
 ## Verification Types
 
