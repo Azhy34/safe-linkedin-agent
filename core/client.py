@@ -168,3 +168,4 @@ class LinkedInClient:
         except urllib.error.HTTPError as e:
             raw_err = e.read().decode("utf-8")
             raise map_http_error(e.code, raw_err)
+

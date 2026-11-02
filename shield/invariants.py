@@ -51,3 +51,4 @@ def audit_boost_readiness(text: str, article_url: str = None) -> List[str]:
     if body_links or article_url:
         warnings.append("External link present in body. Post will have lower organic reach and may be restricted from Thought Leader Ads. (Best Practice: put link in First Comment).")
     return warnings
+

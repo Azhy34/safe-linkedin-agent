@@ -64,3 +64,4 @@ class MemberVerificationReport(BaseModel):
     verification_categories: List[str] = Field(default_factory=list)
     verified_workplace: Optional[str] = None
     verified_at: Optional[str] = None
+

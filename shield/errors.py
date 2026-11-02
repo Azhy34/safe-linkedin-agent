@@ -41,3 +41,4 @@ def map_http_error(status_code: int, response_body: str) -> LinkedInAPIError:
         return LinkedInRateLimitError(status_code, f"Rate limit exceeded on LinkedIn API. Backing off. Details: {msg}", data)
     else:
         return LinkedInAPIError(status_code, msg, data)
+
