@@ -31,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 TOKEN_FILE = BASE_DIR / "token.json"
 ENV_FILE = BASE_DIR / ".env"
 
-DEFAULT_API_VERSION = "202401"
+DEFAULT_API_VERSION = "202610"
 
 class LinkedInClient:
     def __init__(self, token_file: Optional[Path] = None, api_version: str = DEFAULT_API_VERSION):
